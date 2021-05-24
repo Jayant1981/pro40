@@ -24,6 +24,7 @@ function preload () {
   fruit5_img = loadImage("images/pineapple2.png");
   fruitsGroup = new Group();
 }
+
 function setup () {
   createCanvas(1000,600);
   database = firebase.database();
